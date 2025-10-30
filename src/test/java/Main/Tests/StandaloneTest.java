@@ -18,6 +18,9 @@ public class StandaloneTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
+
+		//Test Command to check the integration between Jenkins and Github using WebHook
+
 		System.setProperty("webdriver.chrome.driver", "C:/Users/2165573/OneDrive - Cognizant/Desktop/Selenium/chromedriver-win64/chromedriver.exe");
 		//WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
