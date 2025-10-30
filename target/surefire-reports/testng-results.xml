@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="0" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-29T15:19:10 IST" name="Suite" finished-at="2025-10-29T15:19:50 IST" duration-ms="39912">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.LoginErrorValidations()[pri:0, instance:Main.Tests.ErrorValidations@7975d1d8]" name="LoginErrorValidations" class="Main.Tests.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Package">
+        <method signature="SubmitOrderTest.SubmitOrder(java.util.HashMap)[pri:0, instance:Main.Tests.SubmitOrderTest@1c742ed4]" name="SubmitOrder" class="Main.Tests.SubmitOrderTest"/>
+      </group> <!-- Package -->
+    </groups>
+    <test started-at="2025-10-29T15:19:10 IST" name="Submit Order Test" finished-at="2025-10-29T15:19:48 IST" duration-ms="38152">
+      <class name="Main.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchWebPage()[pri:0, instance:Main.Tests.SubmitOrderTest@1c742ed4]" started-at="2025-10-29T15:19:10 IST" name="launchWebPage" finished-at="2025-10-29T15:19:18 IST" duration-ms="7883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebPage -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:Main.Tests.SubmitOrderTest@1c742ed4]" started-at="2025-10-29T15:19:18 IST" name="SubmitOrder" data-provider="getData" finished-at="2025-10-29T15:19:24 IST" duration-ms="6076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Selenium@1, email=ck412@gmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Main.Tests.SubmitOrderTest@1c742ed4]" started-at="2025-10-29T15:19:24 IST" name="tearDown" finished-at="2025-10-29T15:19:25 IST" duration-ms="570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchWebPage()[pri:0, instance:Main.Tests.SubmitOrderTest@1c742ed4]" started-at="2025-10-29T15:19:25 IST" name="launchWebPage" finished-at="2025-10-29T15:19:31 IST" duration-ms="6019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebPage -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:Main.Tests.SubmitOrderTest@1c742ed4]" started-at="2025-10-29T15:19:31 IST" name="SubmitOrder" data-provider="getData" finished-at="2025-10-29T15:19:38 IST" duration-ms="6909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Selenium@0, email=kc0000@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Main.Tests.SubmitOrderTest@1c742ed4]" started-at="2025-10-29T15:19:38 IST" name="tearDown" finished-at="2025-10-29T15:19:39 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchWebPage()[pri:0, instance:Main.Tests.SubmitOrderTest@1c742ed4]" started-at="2025-10-29T15:19:39 IST" name="launchWebPage" finished-at="2025-10-29T15:19:42 IST" duration-ms="3582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebPage -->
+        <test-method signature="OrderHistoryTest()[pri:0, instance:Main.Tests.SubmitOrderTest@1c742ed4]" started-at="2025-10-29T15:19:42 IST" name="OrderHistoryTest" finished-at="2025-10-29T15:19:47 IST" depends-on-methods="Main.Tests.SubmitOrderTest.SubmitOrder" duration-ms="4463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Main.Tests.SubmitOrderTest@1c742ed4]" started-at="2025-10-29T15:19:47 IST" name="tearDown" finished-at="2025-10-29T15:19:48 IST" duration-ms="1295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Main.Tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+    <test started-at="2025-10-29T15:19:10 IST" name="Error Validations Test" finished-at="2025-10-29T15:19:50 IST" duration-ms="39912">
+      <class name="Main.Tests.ErrorValidations">
+        <test-method is-config="true" signature="launchWebPage()[pri:0, instance:Main.Tests.ErrorValidations@7975d1d8]" started-at="2025-10-29T15:19:10 IST" name="launchWebPage" finished-at="2025-10-29T15:19:16 IST" duration-ms="5925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebPage -->
+        <test-method retried="true" signature="LoginErrorValidations()[pri:0, instance:Main.Tests.ErrorValidations@7975d1d8]" started-at="2025-10-29T15:19:16 IST" name="LoginErrorValidations" finished-at="2025-10-29T15:19:27 IST" duration-ms="10745" status="SKIP">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.123)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6e60004f647ab9e1868c4a05bcca0ff8, isElementDisplayed {id=f.E844F2573B6157965288D0CB3BB0F786.d.BCC2A4FD35EF5BE988CECA8E48A88D2D.e.16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\vijayc2\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50038/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6e60004f647ab9e1868c4a05bcca0ff8)] -> css selector: [class*='flyInOut']]
+Session ID: 6e60004f647ab9e1868c4a05bcca0ff8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.123)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6e60004f647ab9e1868c4a05bcca0ff8, isElementDisplayed {id=f.E844F2573B6157965288D0CB3BB0F786.d.BCC2A4FD35EF5BE988CECA8E48A88D2D.e.16}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 141.0.7390.122 (b477534e7e1..., userDataDir: C:\Users\vijayc2\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50038}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50038/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6e60004f647ab9e1868c4a05bcca0ff8)] -> css selector: [class*='flyInOut']]
+Session ID: 6e60004f647ab9e1868c4a05bcca0ff8
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:282)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+at Main.AbstractComponents.AbstractComponent.waitForWebElementToAppear(AbstractComponent.java:40)
+at Main.PageObjects.LandingPage.getErrorMessage(LandingPage.java:46)
+at Main.Tests.ErrorValidations.LoginErrorValidations(ErrorValidations.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Main.Tests.ErrorValidations@7975d1d8]" started-at="2025-10-29T15:19:27 IST" name="tearDown" finished-at="2025-10-29T15:19:27 IST" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchWebPage()[pri:0, instance:Main.Tests.ErrorValidations@7975d1d8]" started-at="2025-10-29T15:19:27 IST" name="launchWebPage" finished-at="2025-10-29T15:19:31 IST" duration-ms="3517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebPage -->
+        <test-method signature="LoginErrorValidations()[pri:0, instance:Main.Tests.ErrorValidations@7975d1d8]" started-at="2025-10-29T15:19:31 IST" name="LoginErrorValidations" finished-at="2025-10-29T15:19:35 IST" duration-ms="3718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Main.Tests.ErrorValidations@7975d1d8]" started-at="2025-10-29T15:19:35 IST" name="tearDown" finished-at="2025-10-29T15:19:35 IST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchWebPage()[pri:0, instance:Main.Tests.ErrorValidations@7975d1d8]" started-at="2025-10-29T15:19:35 IST" name="launchWebPage" finished-at="2025-10-29T15:19:42 IST" duration-ms="7304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchWebPage -->
+        <test-method signature="ProductErrorValidations()[pri:0, instance:Main.Tests.ErrorValidations@7975d1d8]" started-at="2025-10-29T15:19:42 IST" name="ProductErrorValidations" finished-at="2025-10-29T15:19:48 IST" duration-ms="5558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Main.Tests.ErrorValidations@7975d1d8]" started-at="2025-10-29T15:19:48 IST" name="tearDown" finished-at="2025-10-29T15:19:50 IST" duration-ms="2117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Main.Tests.ErrorValidations -->
+    </test> <!-- Error Validations Test -->
+  </suite> <!-- Suite -->
+</testng-results>
